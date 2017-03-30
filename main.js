@@ -1,1 +1,2 @@
-alert("hey rami");
+<h1> {
+  color: red;
