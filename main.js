@@ -1,6 +1,6 @@
 alert("hey guys i can write small");
-<h1> {
+h1 {
   color: "red";
 }
-<p> {
+p {
   color: "AliceBlue";
