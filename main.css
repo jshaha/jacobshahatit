@@ -3,6 +3,6 @@ color: blue;
 }
   div {
   background-image: url("http://wallpapercave.com/wp/mdJ6ivW.jpg");
-  background-size: 80px 60px;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
