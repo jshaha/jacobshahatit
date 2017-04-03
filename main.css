@@ -1,6 +1,7 @@
-*{
+a{
   color: white
 }
+
 body {
   background-image: url("Water.jpg");
   -webkit-background-size: contain;
