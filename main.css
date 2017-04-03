@@ -1,5 +1,8 @@
 h1 {
-color: blue;
+color: white;
+}
+div.hero {
+  color: white;
 }
 body {
   background-image: url("Water.jpg");
