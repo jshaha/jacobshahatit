@@ -15,7 +15,34 @@
     needs my mom to come and help her everyday.Sadly, my grandma died but at least I was able to learn very much from her. I got into coding from my two brothers. Check out my family!</p>
     <a href="http://www.highlandnews.net/news/schools/amir-shahatit-awarded-scholarship/article_75cf93a2-0826-11e6-a0d6-bff791da75b4.html"></a>
     <a href="http://www.highlandnews.net/news/schools/amir-shahatit-awarded-scholarship/article_75cf93a2-0826-11e6-a0d6-bff791da75b4.html">Amir is a programmer too.</a>
+<div class="container">
+	<fieldset id="container">
+		<form name="calculator">
 
+			<input id="display" type="text" name="display" readonly>
+
+			<input class="button digits" type="button" value="7" onclick="calculator.display.value += '7'">
+			<input class="button digits" type="button" value="8" onclick="calculator.display.value += '8'">
+			<input class="button digits" type="button" value="9" onclick="calculator.display.value += '9'">
+			<input class="button mathButtons" type="button" value="+" onclick="calculator.display.value += ' + '">
+			<br>
+			<input class="button digits" type="button" value="4" onclick="calculator.display.value += '4'">
+			<input class="button digits" type="button" value="5" onclick="calculator.display.value += '5'">
+			<input class="button digits" type="button" value="6" onclick="calculator.display.value += '6'">
+			<input class="button mathButtons" type="button" value="-" onclick="calculator.display.value += ' - '">
+			<br>
+			<input class="button digits" type="button" value="1" onclick="calculator.display.value += '1'">
+			<input class="button digits" type="button" value="2" onclick="calculator.display.value += '2'">
+			<input class="button digits" type="button" value="3" onclick="calculator.display.value += '3'">
+			<input class="button mathButtons" type="button" value="x" onclick="calculator.display.value += ' * '">
+			<br>
+			<input id="clearButton" class="button" type="button" value="C" onclick="calculator.display.value = ''">
+			<input class="button digits" type="button" value="0" onclick="calculator.display.value += '0'">
+			<input class="button mathButtons" type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)">
+			<input class="button mathButtons" type="button" value="/" onclick="calculator.display.value += ' / '">
+		</form>
+	</fieldset>
+</div>
     <ul>
       <li> <a href="http://senate.asuc.org/wp-content/uploads/2014/11/unnamed-1024x682.jpg">Rami</a> Shahahtit 20</li>
       <li>  <a href="http://image.redlandsdailyfacts.com/storyimage/LH/20160415/NEWS/160419622/EP/1/1/EP-160419622.jpg&maxh=400&maxw=667">Amir</a> Shahatit 18</li>
